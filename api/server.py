@@ -48,6 +48,7 @@ async def handle_response(request, response):
 
 @app.route('/')
 async def hello(request):
+    rand_sleep()
     return json({'message': 'Hello, world!'})
 
 
