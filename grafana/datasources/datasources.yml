@@ -4,4 +4,4 @@ datasources:
   - name: prometheus
     type: prometheus
     access: proxy
-    url: http://172.17.0.1:9090
+    url: http://172.17.0.1:9090 # Internal Docker IP
